@@ -13,8 +13,8 @@ Java application Online Quiz Management System
 10. If you want to exit from app press the cross on the edge.
 
 ## Rights
-  copyright © 2021 all rights reserved 
-  Kuatbekov Zhumakhan and Yessilbaeva Ulana
-  SE-2013
-  Astana IT University
-  Instructor: Beibut Amirgaliyev
+ * copyright © 2021 all rights reserved 
+ * Kuatbekov Zhumakhan and Yessilbaeva Ulana
+ * SE-2013
+ * Astana IT University
+ * Instructor: Beibut Amirgaliyev
