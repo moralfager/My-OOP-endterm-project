@@ -7,8 +7,8 @@ public class Send {
 
     public static void main(String[] args) {
 
-        final String username = "gumahan1307@gmail.com";
-        final String password = "821141awds";
+        final String username = "";//username 
+        final String password = "";//pass
 
         Properties prop = new Properties();
         prop.put("mail.smtp.host", "smtp.gmail.com");
@@ -26,14 +26,14 @@ public class Send {
         try {
 
             Message message = new MimeMessage(session);
-            message.setFrom(new InternetAddress("gumahan1307@gmail.com"));
+            message.setFrom(new InternetAddress(""));//username
             message.setRecipients(
                     Message.RecipientType.TO,
-                    InternetAddress.parse("teen.blood@mail.ru")
+                    InternetAddress.parse("")//to email
             );
             message.setSubject("Testing Gmail TLS");
             message.setText("Dear Mail Crawler,"
-                    + "\n\n Please do not spam my email!");
+                    + "\n\n Please do not spam my email!");//text
 
             Transport.send(message);
 
