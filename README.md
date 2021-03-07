@@ -12,7 +12,7 @@ Java application Online Quiz Management System
 9. After you add new question, update, delete, you can see all result and all questions.
 10. If you want to exit from app press the cross on the edge.
 
-##Rights
+## Rights
 copyright © 2021 all rights reserved 
 Kuatbekov Zhumakhan and Yessilbaeva Ulana
 SE-2013
