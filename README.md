@@ -18,3 +18,43 @@ Java application Online Quiz Management System
  * SE-2013
  * Astana IT University
  * Instructor: Beibut Amirgaliyev
+## SQL
+create table student(id varchar(10),
+name varchar(100),
+fatherName varchar(100),
+motherName varchar(100),
+gender varchar(50),
+contactNo varchar(10),
+email varchar(100),
+elevenSchoolName varchar(200),
+elevenPercentage varchar(10),
+elevenPassoutYear varchar(5),
+address varchar(500),
+marks varchar(5));
+
+
+create table student(id varchar(10),
+Fname varchar(100),
+Lname varchar(100),
+gender varchar(50),
+contactNo varchar(12),
+email varchar(100),
+elevenSchoolName varchar(200),
+elevenPercentage varchar(10),
+elevenPassoutYear varchar(5),
+address varchar(500),
+marks varchar(5));
+
+select * from question
+
+create table question(
+	id varchar(10) not null,
+	name varchar(500) not null,
+	opt1 varchar(500) not null,
+	opt2 varchar(500) not null,
+	opt3 varchar(500) not null,
+	opt4 varchar(500) not null,
+	answer varchar(500) not null
+)
+
+drop table question
