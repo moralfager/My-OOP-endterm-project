@@ -119,8 +119,8 @@ public class QuizExamStudent extends javax.swing.JFrame {
     
     public void sendResult(){
         
-//        String from = "gumahan1307@gmail.com";
-//        String fromPass = "821141awds";
+//        String from = "";
+//        String fromPass = "";
 //        String subject = "Exam Result";
 //        
 //        Properties properties = new Properties();
